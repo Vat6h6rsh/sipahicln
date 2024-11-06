@@ -1,10 +1,11 @@
-import Image from "next/image";
 import Announcement from "@/components/announcement";
-import Banner from "@/components/banner";
+import Header from "@/components/header";
 
 export default function Home() {
   return (
+    <div>
     <Announcement></Announcement>
-    <Banner/>
+    <Header></Header>
+    </div>
   );
 }
